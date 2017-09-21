@@ -1,0 +1,11 @@
+Package: NonOverFun
+Type: Package
+Title: Apply function to non-overlapping windows
+Version: 0.1.0
+Author: Giovanni Lombardo
+Maintainer: The package maintainer <giannilmbd@gmail.com>
+Description: Can use to produce non-overlapping means, stdev etc.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat
