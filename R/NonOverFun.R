@@ -19,7 +19,7 @@ NonOverFun<-function(w=5,x=NULL,year=NULL,fun=mean){
   sq<-seq(1,length(rng),by=w)
   tmp<-matrix(data=NA,nrow=length(rng),ncol=1)
 
-  for (cnt in sq){tmp[min(cnt+w-1,length(tmp))]<-fun(x[cnt:cnt+w-1])}
+  for (cnt in sq){tmp[min(cnt+w-1,length(tmp))]<-fun(x[cnt:(cnt+w-1)])}
   return(tmp)
 }
 # library(testthat)
